@@ -1,1 +1,23 @@
+body {
+    font-family: var(--font-text);
+}
+:root {
+    --background-color-heading: rgba(46, 47, 66, 1);
+    --background-color-footer: rgba(46, 47, 66, 1);
+    --background-color-main-header: rgba(255, 255, 255, 1);
+    --background-color-ourteam: rgba(244, 244, 253, 1);
+    --border-color: rgba(231, 233, 252, 1);
+    --font-text: 'Roboto', sans-serif;
+    --font-logo: 'Raleway', serif;
+    --color-logo: rgba(77, 90, 229, 1);
+    --color-headings: rgba(46, 47, 66, 1);
+    --color-text: rgba(67, 68, 85, 1);
+}
 
+
+.logo-style {
+    font-family: var(--font-logo);
+}
+.logo-color{
+    color: var(--color-logo)
+}
