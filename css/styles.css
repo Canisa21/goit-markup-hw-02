@@ -4,7 +4,7 @@ body {
 :root {
     --background-color-heading: rgba(46, 47, 66, 1);
     --background-color-footer: rgba(46, 47, 66, 1);
-    --background-color-main-header: rgba(255, 255, 255, 1);
+    --backgroun-color-header: rgba(255, 255, 255, 1);
     --background-color-ourteam: rgba(244, 244, 253, 1);
     --border-color: rgba(231, 233, 252, 1);
     --font-text: 'Roboto', sans-serif;
@@ -12,6 +12,7 @@ body {
     --color-logo: rgba(77, 90, 229, 1);
     --color-headings: rgba(46, 47, 66, 1);
     --color-text: rgba(67, 68, 85, 1);
+    --color-h1: rgba(255, 255, 255, 1);
 }
 
 
@@ -19,5 +20,24 @@ body {
     font-family: var(--font-logo);
 }
 .logo-color{
-    color: var(--color-logo)
+    color: var(--color-logo);
+}
+
+.section-with-h1 {
+    color: var(--color-h1);
+    background-color: var(--background-color-heading);
+}
+.main-heading {
+        font-size: 56px;g
+        font-style: normal;
+        font-weight: 700;
+        line-height: 10,7 ;
+        letter-spacing: 1.12px;
+}
+
+.order-service {
+    background-color:rgba(77, 90, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
