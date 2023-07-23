@@ -13,6 +13,7 @@ body {
     --color-headings: rgba(46, 47, 66, 1);
     --color-text: rgba(67, 68, 85, 1);
     --color-h1: rgba(255, 255, 255, 1);
+    --color-footer: rgba(244, 244, 253, 1);
 }
 
 
@@ -56,13 +57,14 @@ body {
 .section-main-heading {
     color: var(--color-h1);
     background-color: var(--background-color-heading);
+   
 }
 .main-heading {
         font-size: 56px;
-        font-style: normal;
         font-weight: 700;
         line-height: 10,7 ;
         letter-spacing: 1.12px;
+        text-align: center;
 }
 
 .order-service {
@@ -84,9 +86,50 @@ body {
         letter-spacing: 0.4px;
         color: var(--color-headings)
 }
-.pillars-description {
+.description {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
         color:var(--color-text)
+}
+
+.header-two {
+    color: var(--color-headings);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+.solutions-list {
+    list-style-type: none;
+}
+.team-list {
+    list-style-type: none;
+}
+.team-names {
+    color: var(--color-headings);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.team-position {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: var(--color-text)
+}
+
+.footer-style {
+    background-color: var(--background-color-footer);
+}
+.footer-text {
+    color: var(--color-footer);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
 }
