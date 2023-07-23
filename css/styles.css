@@ -25,6 +25,8 @@ body {
     line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
+    color:var(--color-headings);
     }
 
 .logo-web{
@@ -133,3 +135,19 @@ body {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+.logo-footer {
+    font-family: var(--font-logo);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-footer)
+
+}
+
+ .filters-list {
+    list-style-type: none;
+ }
